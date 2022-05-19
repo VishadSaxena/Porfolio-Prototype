@@ -1,50 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
-:root{
-    --primary-color:#a78bfa;
-    --light-gray:#e5e7eb;
-    --dark-grey:#6b7280;
+:root {
+    --primary-color: #a78bfa;
+    --light-gray: #e5e7eb;
+    --dark-grey: #6b7280;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
+    margin: 0px;
 }
 
 /** containers**/
 
-.container{
+.container {
     padding: 1.5rem 1rem;
 }
 
-#fluid{
+#fluid {
     padding: 2rem 1rem;
     border: 1rem;
     margin: auto;
 
 }
 
-.center-container{
+.center-container {
     text-align: center;
 }
 
 /** link **/
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 0.5rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -52,69 +53,88 @@ body{
 
 /**list**/
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
 /** navigation **/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
 /** header **/
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     max-width: 360px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     text-align: center;
     color: var(--dark-grey);
 }
 
-.hero .hero-heading .hero-main{
+.hero .hero-heading .hero-main {
     color: var(--primary-color);
 }
 
 /** Section **/
 
-.section{
+.section {
     padding: 0.5rem 0rem;
 }
-.section h1{
+
+.section h1 {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--light-gray);
     border-radius: 0.5rem;
     padding: 0.5rem 0.5rem;
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem ;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .ul{
+    padding-inline-start: 0px;
 }
