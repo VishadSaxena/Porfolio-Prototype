@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
+:root{
+    --primary-color:#a78bfa;
+}
+
 body{
     font-family: 'PT Sans', sans-serif;
 }
@@ -20,3 +24,23 @@ body{
 .center-container{
     text-align: center;
 }
+
+/** link **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
