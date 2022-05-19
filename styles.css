@@ -2,6 +2,8 @@
 
 :root{
     --primary-color:#a78bfa;
+    --light-gray:#e5e7eb;
+    --dark-grey:#6b7280;
 }
 
 hr{
@@ -79,4 +81,40 @@ body{
 
 .navigation .nav-pills{
     text-align: right;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 360px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.hero .hero-heading .hero-main{
+    color: var(--primary-color);
+}
+
+/** Section **/
+
+.section{
+    padding: 0.5rem 0rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--light-gray);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
