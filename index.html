@@ -1,165 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component's Library</title>
-    <!--style>
-        body{
-            color: blue;
-        }
-    </style-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
 </head>
-
 <body>
-    <h1>Welcome to Vishad's Component's Library.</h1>
+    <nav class="navigation Container"> 
 
-    <hr>
-
-    <h2>@paragraph</h2>
-
-    <p>A small introduction on all the functionalities of HTML</p>
-    <p>This is used to show a <strong>bold</strong> text</p>
-
-    <hr>
-
-    <h2>@small</h2>
-
-    <small>A text where something is written in small</small>
-
-    <hr>
-
-    <h2>@div</h2>
-
-    <div>Till now i have researched and worked upon different tags of HTML</div>
-
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3 class="container">@fluid </h3>
-
-    <fluid id="fluid"> Contents of fluid containers.</fluid>
-
-    <h3 class="center-container">@center</h3>
-
-    <center>Contents of a Center Container.</center>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="">Primary Link name</a>
-
-    <a class="link link-secondary" href="">Secondary Link name</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-
-    <p>This is unordered list of portfolio in which what all I know</p>
-
-    <ul class="list-non-bullet">
-        <li>C</li>
-        <li>C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-    </ul>
-
-    <div>An unordered list about my hobbies, which are inline </div>
-
-    <div>Which mainly include :</div>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Cricket</li>
-        <li class="list-item-inline">Badminton</li>
-        <li class="list-item-inline">Podcasts</li>
-        <li class="list-item-inline">Stories</li>
-    </ul>
-
-    <div>This is a reverse list to show different projects :</div>
-
-    <ol reversed>
-        <li>Ericsson</li>
-        <li>IPInfusion</li>
-        <li>Juniper</li>
-        <li>Harry Potter Quiz</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav class="navigation Container"> This is used to navigate around the website.
-
-        <div class="nav-brand">Links to different section which can be navigated</div>
-
+        im<span class="nav-brand">Pulse</span>
         <ul class="nav-pills">
-            <li class="link list-non-bullet list-item-inline"><a class="link" href="">home</a></li>
-            <li class="link list-non-bullet list-item-inline"><a class="link" href="">about</a></li>
-            <li class="link list-non-bullet list-item-inline"><a class="link" href="">connect</a></li>
+            <li class="link list-non-bullet list-item-inline"><a class="link" href=""><b>Home</b></a></li>
+            <li class="link list-non-bullet list-item-inline"><a class="link" href="">Projects</a></li>
+            <li class="link list-non-bullet list-item-inline"><a class="link" href="">Connect</a></li>
         </ul>
 
     </nav>
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
         <img class="hero-image" src="images/Main-image.svg" alt="">
 
-        <h1 class="hero-heading">This is a Prototype <span class="hero-main"> Resume</span>
+        <h1 class="hero-heading">This is Vishad's <span class="hero-main"> Resume</span>
         </h1>
     </header>
 
-    <hr>
+    <section class="section ow">
+        <div class="container center-container">
+            <h1>Technologies</h1>
 
-    <h2>@section</h2>
+            <p>I am familiar with HTML, CSS, Javascript, C, C++ and Python</p>
+        </div>
+
+    </section>
 
     <section class="section">
         <div class="container center-container">
-            <h1>white section</h1>
+            <h1>Projects</h1>
 
-            <p>Used to describe a section.</p>
+            <p>Worked on different projects few of which are open-source</p>
+            <a class="link link-primary" href="">Project List</a>
         </div>
+
     </section>
 
     <section class="section ow">
         <div class="container center-container">
-            <h1>off-white section</h1>
+            <h1>Co-Cirrculular & Hobbies</h1>
 
-            <p>This is an off-white section</p>
+            <ul class="list-non-bullet">
+                <li>Vice-HeadBoy in C.M.S Kapur Road Branch (2011-12)</li>
+                <li>Cultural Seceratary in Jaypee University (2014-2016) </li>
+                <ul class="list-non-bullet list-hobbies">
+                   <li class="list-hobbies">Hobbies :</li>
+                   <li>Cricket</li>
+                   <li>Badminton</li>
+                   <li>Podcasts</li>
+                </ul> 
+            </ul>
+
+            
         </div>
 
     </section>
 
 
-    <hr>
-
-    <h2>@footer</h2>
-
-    <footer class="footer">
-        <div>
-            Used to define the footer of our website, and link the socials here.
-    </div>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline"><a class="link" href=""> socialone</a></li>
-        <li class="list-item-inline link"><a class="link" href="">socialtwo</a></li>
-        <li class="link list-item-inline"><a class="link" href="">socialthree</a></li>
-    </ul>
-    </footer>
-
-    <hr>
-
-
-
-
-
+    
 </body>
-
 </html>

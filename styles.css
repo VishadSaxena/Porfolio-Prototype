@@ -51,6 +51,10 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+.link-active{
+    te
+}
+
 /**list**/
 
 .list-non-bullet {
@@ -60,6 +64,11 @@ body {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.list-hobbies{
+    text-align: center;
+    padding: 1rem 0rem;
 }
 
 /** navigation **/
