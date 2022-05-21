@@ -52,7 +52,12 @@ body {
 }
 
 .link-active{
-    te
+    text-align: center;
+}
+
+.link-space{
+    margin: 2rem;
+    padding: 2rem;
 }
 
 /**list**/
